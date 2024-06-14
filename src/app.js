@@ -46,8 +46,7 @@ router.all("*", function (req, res, next) {
 });
 
 //routes for url-shortener
-router.post('/shorten-url', urlValidator.validateInputUrl, routes.shortenUrl)
-router.get('/shorturl.co/:token', urlValidator.validateShortUrl, routes.redirectUsingShortUrl)
+router.get('/', routes.runServer)
 
 
 router.all('/*', function (req, res) {
