@@ -7,7 +7,7 @@
     "RDS_NO_OF_CONNECTIONS": 20,
     "RDS_FAILOVER_NO_OF_CONNECTIONS": 5,
     "RDS_CONNECTION_TIMEOUT": 10000,
-    "SERVER_PROTOCOL_WITH_SUBDOMAIN": "http://localhost:8888/"
+    "SERVER_PROTOCOL_WITH_SUBDOMAIN": "localhost:8888/"
   },
   "main": {
     "RDS_HOST": "sql5.freesqldatabase.com",
@@ -17,7 +17,7 @@
     "RDS_NO_OF_CONNECTIONS": 20,
     "RDS_FAILOVER_NO_OF_CONNECTIONS": 5,
     "RDS_CONNECTION_TIMEOUT": 10000,
-    "SERVER_PROTOCOL_WITH_SUBDOMAIN": "https://url-shortener-1hk1.onrender.com/"
+    "SERVER_PROTOCOL_WITH_SUBDOMAIN": "tinyurl-fok9.onrender.com/"
   }
 }
 
