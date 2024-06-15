@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const controller = require('../controllers/oneDriveController');
 
 exports.listFiles = async function (req, res) {
@@ -29,3 +30,9 @@ exports.testServer = function (req, res) {
 
 
 
+=======
+
+exports.runServer = function (req, res) {
+    res.status(200).send("server is running........")
+}
+>>>>>>> 719fab7fb45fb36d494d032a08d58390c7beddea
