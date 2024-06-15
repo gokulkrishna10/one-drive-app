@@ -46,7 +46,14 @@ router.all("*", function (req, res, next) {
 });
 
 //routes for url-shortener
-router.get('/', routes.runServer)
+router.get('/', routes.testServer)
+
+// route to list all files
+router.get('/files', routes.listFiles)
+
+router.get('/callback', routes.redirect)
+
+
 
 
 router.all('/*', function (req, res) {
